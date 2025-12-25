@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>projects</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <div>
+                <h1 style="font-family:monospace;"> BlackBox </12>
+            </div> 
+            
+            <div id="div1">
+                    <a href="Home.html"> Home</a>    
+                    <a href="aboutUs.html"> aboutUs</a>
+                    <a href="projects.html"> projects</a>
+                    
+            </div>
+        </header>
+        
+        <main>
+            <h1>successful projects</h1>
+            <div id="maindiv1">
+                
+
+                <div id="maindiv1a" >
+                    <h3>Project Canary</h3>
+                    <p>
+                         Client: TerraSphere Environmental Challenge: Create 
+                         a network of durable, field-deployable sensor units 
+                         to monitor air and water quality in remote locations, 
+                         with a central dashboard for real-time data visualization.
+                         Our Solution: We designed and manufactured a rugged, 
+                         solar-powered sensor module. We then built a cloud-based 
+                         SaaS platform with a React front-end and Python/Node.js 
+                         backend, allowing scientists to monitor data streams from 
+                         anywhere in the world. 
+                         <br> Tags: 
+                         <span>
+                                IoT SaaS Embedded Systems React Data Visualization
+                         </span> 
+                    </p>
+                </div>
+
+                <div id="maindiv1b">
+                    <h3>Project Nexus</h3>
+                    <p>
+                        Client: A major metropolitan hospital network
+                        Challenge: Streamline patient intake and records 
+                        management across five different facilities with 
+                        legacy systems, improving both staff efficiency and 
+                        patient experience. Our Solution: We built a unified, 
+                        HIPAA-compliant web application that integrated 
+                        with the existing legacy databases. The system features 
+                        a secure patient portal and automated workflow tools, 
+                        cutting average intake time by 30%. 
+                        <br> Tags:  
+                        <span>
+                            Healthcare Web Application System Integration Security
+                        </span>
+                    </p>
+                </div>
+
+
+            </div>
+
+            <div id="maindiv2">
+                <div>
+                    <h3>Project Aegis</h3>
+                    <p>
+                        Client: Aether Financial Challenge: To build a 
+                        ultra-low-latency trading platform and the custom 
+                        server hardware to host it, capable of processing 
+                        millions of transactions per second with 99.999% uptime.
+                        Our Solution: We developed a proprietary C++ trading 
+                        algorithm and paired it with a custom-manufactured 
+                        server stack featuring optimized cooling and direct 
+                        fiber-optic routing. The system reduced transaction 
+                        latency by 40%. 
+                        <br> Tags: 
+                        <span>
+                            FinTech Custom Hardware C++ High-Performance Computing
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div id="maindiv2">
+
+                <div style="border: none;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/o_7KxStXKco
+" 
+                        width=100% 
+                        height="400" 
+                        title="Wikipedia page"
+                        style="border:2px solid black;">
+                    </iframe>
+                </div>
+            </div>
+        </main>
+        
+    </body>
+
+    <footer>
+        <div id="divf1">
+            
+            <div id="logo" >
+                <h2>BlackBox</h2>
+            </div>
+            
+            <div id="address">
+                <p>
+                    © 2024 BlackBox Inc. <br>
+                    phone: 0989636019 <br>
+                    P.O. Box 191 4kilo <br>
+                    Fax: 706-647-2790
+                </p>
+            </div>
+            
+        </div>
+    </footer>
+
+</html>
+
+<style>
+    
+    /* HEADER */
+    html{
+        font-size: larger;
+        background: black; 
+        color: white;
+    }
+
+    header { 
+        display: flex;
+        margin: 2%; 
+        border-bottom: 1px solid white;
+        position: fixed;
+    }
+
+    main {
+        margin: 2%;
+    }
+    
+    header div { 
+        flex: 1 
+    }
+    
+    a {
+        color: white;
+        text-decoration: solid;
+    }
+
+    #div1 {
+        text-align:right; 
+        margin-top: 23px; 
+        margin-right: 15px;
+        font-family: monospace;
+        font-size:larger;
+    }  
+    
+    /* MAIN */
+    #maindiv1 {
+        display: flex;
+        padding-top: 5%;
+    }
+
+    main > h1 {
+        margin-top:10%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    #maindiv1 > div {
+        flex:1;
+        margin:2%;
+        margin-top: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        border: 0.5px solid white;
+        border-radius: 20px;
+    }
+
+    #maindiv2 > div {
+        padding-left: 5%;
+        padding-right: 5%;
+        border: 0.5px solid white;
+        border-radius: 20px;
+        margin-bottom: 10%;
+    }
+
+    span { 
+        color: lightgreen;
+    }
+
+    /* FOOTER CSS */
+    #divf1{
+        display: flex;        
+        background-color: rgb(16, 16, 16);
+        border-top:1px solid white ;
+        padding:7px;
+        border-radius: 20px;
+    }
+
+    #divf1 > div {
+        flex:1;
+    }
+    #divf1 > #logo {
+        padding-left: 9%;
+        padding-top: 2%;
+    }
+    
+    #divf1 > #address {
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    video {
+        max-width:100%; 
+        height:auto;
+    }
+</style>
