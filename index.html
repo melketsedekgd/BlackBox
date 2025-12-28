@@ -1,285 +1,234 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackBox | Where Vision Meets Execution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<html>
-    
-
-    <head>
-        <meta name="viewport" content="width=device-width initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <title>BlackBox</title>
-    </head>
-    
-    <body>
-
-        <header>
-            <div>
-                <h1> BlackBox </12>
-            </div> 
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>BlackBox</h1>
+            </div>
             
-            <nav>
-            
-                <ul>
-                    <li><a href="Home.html"> Home</a></li>    
-                    <li><a href="aboutUs.html"> aboutUs</a></li>
-                    <li><a href="projects.html"> projects</a></li>
-                    <li><a href=""> products</a></li>
-                    <li><a href="">contacts</a></li>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>    
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            
             </nav>
+        </div>
+    </header>
 
-        </header>
-        
-        <main>
-            
-            <!-- IMAGE -->
-            <!-- <img src="site.jpg" alt="ourOffice"> -->
-            
-            <!-- HOME -->
-            <div id="HOME">
-                <!-- short, what we do, simple contacts-->
-                <h1>Black Box<br>Where Vision Meets Execution.</h1>
-                <p>
-                    We architect the software and build the systems 
-                    that power tomorrow's enterprises. From elegant 
-                    code to integrated hardware, we deliver seamless, 
-                    end-to-end technology solutions.
-                </p>
-
-                <!-- learn more and products -->
-                <button>Learn more</button>
-                <button>explore products</button>
-                <!-- <simple cards for services> -->
-                
-
-
-
-            </div>
-
-
-            <!-- ABOUT US -->
-            <div id="AboutUs">
-                <h2 id="aboutUs">About US</h2>
-                <img src="siloh.jpeg">
-                <h2>We Are</h2>
-                <p>
-                    A team of engineers out of Addis Ababa 
-                    who are passionate about problem solving and 
-                    technology. From the minute details to the whole 
-                    structure, our team has dedicated members with experience 
-                    in their respective fields and a strong team mentality.
-                    Our diverse background in engineering disciplines allows us 
-                    to tackle complex challenges with a holistic approach. 
-                    We believe that the best solutions emerge when different 
-                    perspectives converge, and we foster a collaborative 
-                    environment where every idea is valued. Specializing in 
-                    , we are committed to leveraging our expertise to make a 
-                    tangible impact, right here in our community and beyond. 
-                    We combine local insights with a global standard of engineering 
-                    excellence to deliver robust, innovative, and sustainable results 
-                    for our clients.
-                </p>
-                
-                <h2>Our Core Values</h2>
-                <ul>
-                    <li> <strong>Ingenuity by Design:</strong> We challenge conventional 
-                        thinking to find elegant, efficient solutions.
-                    </li>
-
-                    <li>
-                        <strong>Precision Engineering:</strong> Every line of code and 
-                        every circuit is built to the highest standard of quality.
-                    </li>
-
-                    <li>
-                        <strong>Integrated Vision:</strong> We ensure our software and 
-                        hardware are not just compatible, but symbiotic.
-                    </li>
-
-                    <li>
-                        <strong>Client as Partner:</strong> Your success is our most important 
-                        metric.
-                    </li>
-                </ul>
-            </div>
-
-
-            <!-- PRODUCTS AND SERVICES -->
-            <div id="products">
-                
-                <h2>Our services</h2> 
-                
-                <!-- THE 1ST PART -->
-                <div id="div3a">
-                    
-                    <!-- system manufaturing -->
-                    <div>
-                        <h4>System Manufacturing</h4> 
-                        <p>
-                            We don't just design on paper. Our state-of-the-art 
-                            fabrication plant brings our designs to life, producing robust, 
-                            custom-built server racks, embedded systems, and specialized 
-                            computing units tailored to harsh or specific environments.
-                        </p>
-                    </div>
-
-                    <!-- system manufaturing -->
-                    <div>
-                        <h4>Software Development</h4> 
-                        <p>
-                            Our agile teams craft bespoke applications, scalable cloud platforms, 
-                            and intelligent data analytics tools. We code in a variety of languages 
-                            and frameworks, always choosing the right tool for the challenge.
-                        </p>
-                    </div>
-
-                    <!-- embeded systmes engineering -->
-                     <div>
-                        <h4>Embedded Systems Engineering</h4> 
-                        <p>
-                            Firmware to PCBs: we spec, layout and code ARM/ESP32/AVR boards, 
-                            add sensors + low-power radios (LoRa, BLE, Wi-Fi, cell), run edge 
-                            analytics, and ship ready prototypes.
-                        </p>
-                     </div>
-
-                </div>
-                <!-- THE 2ND PART -->
-                <div id="div3b">
-                    <div>
-                        <h4>Integration & Cybersecurity</h4> 
-                        <p>
-                            We strengthen your systems by ensuring every component 
-                            works in harmony and securely. Our services include 
-                            seamless system integration of new and legacy platforms, 
-                            proactive cybersecurity through robust frameworks and 
-                            compliance audits, and ongoing managed support to guarantee 
-                            optimal performance for years to come.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h4>Strategic Consulting</h4> 
-                        <p>
-                            We help you navigate the complex tech landscape to make 
-                            informed decisions. Solution Architecture: Designing the 
-                            blueprint for systems that are secure, scalable, and 
-                            cost-effective. Proof-of-Concept Development: 
-                            Building functional prototypes to validate ideas and 
-                            mitigate project risk before full-scale investment.
-                        </p>
-                    </div>
-                </div>
-
-                
-            </div>
-
-
-            <!-- PROJECTS -->
-            <div id="projects">
-                <h1>successful projects</h1>
-                <div id="maindiv1">
-                    
-
-                    <div id="maindiv1a" >
-                        <h3>Project Canary</h3>
-                        <p>
-                            Client: TerraSphere Environmental Challenge: Create 
-                            a network of durable, field-deployable sensor units 
-                            to monitor air and water quality in remote locations, 
-                            with a central dashboard for real-time data visualization.
-                            Our Solution: We designed and manufactured a rugged, 
-                            solar-powered sensor module. We then built a cloud-based 
-                            SaaS platform with a React front-end and Python/Node.js 
-                            backend, allowing scientists to monitor data streams from 
-                            anywhere in the world. 
-                            <br> Tags: 
-                            <span>
-                                    IoT SaaS Embedded Systems React Data Visualization
-                            </span> 
-                        </p>
-                    </div>
-
-                    <div id="maindiv1b">
-                        <h3>Project Nexus</h3>
-                        <p>
-                            Client: A major metropolitan hospital network
-                            Challenge: Streamline patient intake and records 
-                            management across five different facilities with 
-                            legacy systems, improving both staff efficiency and 
-                            patient experience. Our Solution: We built a unified, 
-                            HIPAA-compliant web application that integrated 
-                            with the existing legacy databases. The system features 
-                            a secure patient portal and automated workflow tools, 
-                            cutting average intake time by 30%. 
-                            <br> Tags:  
-                            <span>
-                                Healthcare Web Application System Integration Security
-                            </span>
-                        </p>
-                    </div>
-
-
-                </div>
-
-                <div id="maindiv2">
-                    <div>
-                        <h3>Project Aegis</h3>
-                        <p>
-                            Client: Aether Financial Challenge: To build a 
-                            ultra-low-latency trading platform and the custom 
-                            server hardware to host it, capable of processing 
-                            millions of transactions per second with 99.999% uptime.
-                            Our Solution: We developed a proprietary C++ trading 
-                            algorithm and paired it with a custom-manufactured 
-                            server stack featuring optimized cooling and direct 
-                            fiber-optic routing. The system reduced transaction 
-                            latency by 40%. 
-                            <br> Tags: 
-                            <span>
-                                FinTech Custom Hardware C++ High-Performance Computing
-                            </span>
-                        </p>
-                    </div>
-                </div>
-
-                <div id="maindiv2">
-
-                    <div style="border: none;">
-                        <iframe 
-                            src="https://www.youtube.com/embed/o_7KxStXKco" 
-                            width=100% 
-                            height="400" 
-                            title="Wikipedia page"
-                            style="border:2px solid black;">
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-
-        </main>
-        
-        <footer>
-            <div id="footer">
-                
-                <div id="logo" >
-                    <h2>BlackBox</h2>
-                </div>
-                
-                <div id="address">
-                    <p>
-                        © 2024 BlackBox Inc. <br>
-                        phone: 0989636019 <br>
-                        P.O. Box 191 4kilo <br>
-                        Fax: 706-647-2790
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-wrapper">
+                <div class="hero-content">
+                    <h1 class="hero-title">Black Box<br>Where Vision Meets Execution.</h1>
+                    <p class="hero-text">
+                        We architect software and build systems that power tomorrow's enterprises. 
+                        From elegant code to integrated hardware, we deliver seamless technology.
                     </p>
+                    <div class="hero-cta">
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                        <a href="#products" class="btn btn-outline">Explore Products</a>
+                    </div>
                 </div>
-                
+
+                <div class="hero-summary-grid">
+                    <article class="summary-card">
+                        <h3>Software</h3>
+                        <p>Custom applications and cloud platforms built with precision engineering.</p>
+                    </article>
+                    <article class="summary-card">
+                        <h3>Hardware</h3>
+                        <p>Custom servers and embedded systems for demanding environments.</p>
+                    </article>
+                    <article class="summary-card">
+                        <h3>Integration</h3>
+                        <p>End-to-end technology solutions combining software and hardware.</p>
+                    </article>
+                </div>
             </div>
-        </footer>
+        </section>
 
-    </body>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="siloh.jpeg" alt="BlackBox Engineering Team">
+                    </div>
+                    <div class="about-content">
+                        <h3>We Are Problem Solvers</h3>
+                        <p>A team of engineers out of Addis Ababa passionate about problem solving and technology. We combine local insights with global standards of engineering excellence.</p>
+                        
+                        <div class="values-list">
+                            <div class="value-item">
+                                <strong>Precision Engineering</strong>
+                                <p>Every line of code and circuit is built to the highest standard.</p>
+                            </div>
+                            <div class="value-item">
+                                <strong>Integrated Vision</strong>
+                                <p>Our software and hardware are built to be symbiotic.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    
+        <section id="products" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <span class="icon">⚙️</span>
+                        <h4>System Manufacturing</h4>
+                        <p>Custom-built server racks and specialized computing units.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="icon">💻</span>
+                        <h4>Software Development</h4>
+                        <p>Bespoke applications and scalable cloud platforms.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="icon">🔌</span>
+                        <h4>Embedded Systems</h4>
+                        <p>PCB design, firmware, and edge analytics for IoT.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="icon">🔒</span>
+                        <h4>Cybersecurity</h4>
+                        <p>Proactive security frameworks and compliance audits.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Successful Projects</h2>
+                <p class="section-subtitle">Click on a project title to view full details.</p>
+                <div class="projects-grid">
+                    
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3 class="trigger-modal" 
+                                data-client="TerraSphere Environmental"
+                                data-description="A complete end-to-end IoT solution. These rugged hardware sensors are deployed in harsh remote locations, powered by solar energy. They transmit data via LoRaWAN to a custom cloud platform for real-time monitoring.">
+                                Project Canary
+                            </h3>
+                            <p class="short-desc">Rugged, solar-powered sensor modules with a cloud-based SaaS platform.</p>
+                            <div class="tags">
+                                <span>IoT</span><span>SaaS</span><span>Hardware</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3 class="trigger-modal" 
+                                data-client="Major Hospital Network"
+                                data-description="We modernized patient intake by building a secure, HIPAA-compliant web application. The system interfaces with legacy databases to provide a single, modern dashboard for hospital staff.">
+                                Project Nexus
+                            </h3>
+                            <p class="short-desc">HIPAA-compliant web application streamlining patient intake across facilities.</p>
+                            <div class="tags">
+                                <span>Healthcare</span><span>Web App</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3 class="trigger-modal" 
+                                data-client="Aether Financial"
+                                data-description="An ultra-low-latency trading platform. Core algorithmic engines were written in highly optimized C++ to minimize transaction times, running on custom-designed server hardware.">
+                                Project Aegis
+                            </h3>
+                            <p class="short-desc">Ultra-low-latency trading platform featuring custom C++ algorithms.</p>
+                            <div class="tags">
+                                <span>FinTech</span><span>C++</span><span>Low-Latency</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@blackbox-et.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+251 989 636 019</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>4kilo, Addis Ababa, Ethiopia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-card">
+                        <h3>Let's Build Something</h3>
+                        <p>Have a complex technical challenge? Our engineers are ready to architect your solution.</p>
+                        <a href="mailto:info@blackbox-et.com" class="btn btn-dark">Start a Conversation</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>BlackBox</h2>
+                <p>Where Vision Meets Execution</p>
+            </div>
+            <p>&copy; 2024 BlackBox. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-text-container">
+                <h3 id="modal-title"></h3>
+                <p id="modal-client" class="client-label"></p>
+                <div id="modal-tags" class="tags"></div>
+                <hr>
+                <p id="modal-description" class="long-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
-
